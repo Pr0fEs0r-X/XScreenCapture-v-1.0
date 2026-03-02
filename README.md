@@ -42,9 +42,7 @@ Este proyecto fue construido utilizando las siguientes librerías de Python:
 Requisitos Previos
 
 Asegúrate de tener Python 3.x instalado.
-1. Clonar el Repositorio
 
-git clone https://github.com/tu-usuario/xvcapture.gitcd xvcapture
 
  
 2. Instalar Dependencias 
@@ -88,7 +86,7 @@ Para generar un archivo ejecutable portable (.exe) utilizando pyinstaller:
 
   
  
-pyinstaller --noconsole --onefile --add-data "1f2833.png;." nombre_del_archivo.py
+pyinstaller --noconsole --onefile --name "XVCapture" --add-data "1f2833.png;." --copy-metadata imageio --copy-metadata moviepy --collect-all imageio-ffmpeg --collect-binaries sounddevice XCapture.py
  
  
  
