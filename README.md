@@ -1,107 +1,72 @@
-# XScreenCapture v 1.0
+# 🎥 XVScreenCapture v 1.0
 
 <p align="center">
-  <img width="300" height="300" alt="Logo" src="https://github.com/user-attachments/assets/cd6c5037-2d02-4be8-8a59-11ed8595af3d" />
-  <img width="296" height="519" alt="Preview" src="https://github.com/user-attachments/assets/d1fff267-0e7f-4745-b3e9-4e36527a7071" />
+  <img src="1f2833.png" alt="XVCapture Logo" width="200">
 </p>
-
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/Platform-Windows-lightgrey" alt="Platform">
   <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
 </p>
+<p align="center">
+  <strong>Herramienta profesional de captura de pantalla y grabación de video para Windows.</strong>
+</p>
 
-**XScreenCapture** es una herramienta de captura de pantalla y grabación de video ligera, potente y de código abierto, diseñada con un tema oscuro moderno ("Dark Tech"). Desarrollada íntegramente en Python, ofrece un rendimiento optimizado mediante hilos separados para video y audio.
+<p align="center">
+  <a href="https://rodolfohbaz.info/" target="_blank">Rodolfo Hernández Baz (Pr@fEs0r X)</a> |
+  <a href="https://rhinosecurity.xyz/" target="_blank">Rhino Forensic & Reverse Toolkit</a>
+</p>
 
 ---
+
+## 📖 Descripción
+
+**XVScreenCapture v 1.0** es una aplicación portátil (portable) y ligera diseñada para la captura de imágenes y grabación de video de alta calidad. Con una interfaz minimalista y moderna, permite grabar tu pantalla con audio, aplicar zoom en tiempo real y resaltar clics visuales, ideal para tutoriales, presentaciones y documentación.
 
 ## ✨ Características Principales
 
-### 🎥 Grabación de Video
-*   **Multi-Monitor:** Selección del monitor de origen para grabaciones multi-pantalla.
-*   **Audio Sincronizado:** Grabación de audio del micrófono con corrección automática de sincronización.
-*   **Control de Calidad:** Tres modos de grabación:
-    *   Alta (30 FPS)
-    *   Media (20 FPS)
-    *   Baja (10 FPS)
-*   **Contador en Tiempo Real:** Temporizador visible durante la grabación.
+### Grabación de Video
+- **Multi-Monitor:** Soporte para grabar cualquier monitor conectado al sistema.
+- **Sincronización de Audio:** Corrección automática de velocidad para asegurar que el audio y el video estén perfectamente alineados.
+- **Zoom Dinámico:** Acércate y aléjate de la pantalla en tiempo real mientras grabas usando teclas rápidas.
+- **Indicador de Clic:** Muestra un círculo visual (rojo o amarillo) en el lugar exacto donde haces clic, perfecto para resaltar acciones.
+- **Captura de Audio:** Graba tu voz desde el micrófono simultáneamente con la pantalla.
 
-### 📸 Captura de Imagen
-*   **Pantalla Completa:** Captura instantánea del monitor seleccionado.
-*   **Selección de Área:** Herramienta interactiva para dibujar un rectángulo y capturar una zona específica.
-*   **Ventana Específica:** Sistema inteligente "Clic para capturar". Al activar esta opción, simplemente haz clic sobre cualquier ventana abierta para capturarla automáticamente (el programa trae la ventana al frente para asegurar la visibilidad).
-*   **Temporizador (Retardo):** Opciones de cuenta regresiva de 3, 4 y 5 segundos antes de capturar.
+### Captura de Imagen
+- **Modos Flexibles:** Captura la pantalla completa, selecciona un área manual o elige una ventana específica con un solo clic.
+- **Temporizador:** Configura retardos de 3, 4 o 5 segundos para prepararte antes de la captura.
+- **Calidad Ajustable:** Guarda imágenes en calidad Alta, Media o Baja.
 
-### 🎨 Interfaz y Diseño
-*   **Dark Mode Elegante:** Paleta de colores profesional basada en tonos oscuros (`#1f2833`) y acentos cian (`#66FCF1`).
-*   **Organizado por Pestañas:** Interfaz limpia separando las herramientas de captura y la información "Acerca de".
-*   **Splash Screen:** Pantalla de inicio con efecto de desvanecimiento.
+### Interfaz de Usuario
+- **Diseño Minimalista:** Interfaz oscura elegante sin barras de título estándar.
+- **Controles Modernos:** Botones de cerrar y minimizar con estilo "semáforo" (macOS/Windows 11 style).
+- **Progreso Visual:** Barra de progreso animada durante el procesamiento del video final.
 
----
+## 🚀 Cómo Usar
 
-## 🛠️ Tecnologías Utilizadas
+1.  **Descarga:** Obtén el archivo `XVCapture.exe`.
+2.  **Ejecuta:** Haz doble clic en el archivo. No requiere instalación.
+3.  **Permisos:** Si Windows SmartScreen bloquea la aplicación, haz clic en "Más información" y luego en "Ejecutar de todas formas".
 
-Este proyecto fue construido utilizando librerías estándar y de alto rendimiento en Python:
+## ⌨️ Controles y Atajos
 
-*   **GUI:** `tkinter` (Interfaz gráfica nativa).
-*   **Captura de Pantalla:** `mss` (Alto rendimiento).
-*   **Procesamiento de Video/Imagen:** `OpenCV (cv2)`, `Pillow (PIL)`.
-*   **Manejo de Audio:** `sounddevice`, `wave`, `moviepy`.
-*   **Interacción con Windows:** `ctypes` (Para selección de ventanas).
+| Tecla | Acción |
+| :---: | :--- |
+| **`+`** | Acercar Zoom (Zoom In) |
+| **`-`** | Alejar Zoom (Zoom Out) |
+| **`0`** | Resetear Zoom |
 
----
+*El zoom sigue automáticamente la posición del cursor del mouse.*
 
-## 🚀 Instalación y Uso
+## 💻 Requisitos del Sistema
 
-### 1. Requisitos Previos
-Asegúrate de tener **Python 3.x** instalado en tu sistema.
+- **Sistema Operativo:** Windows 10 / 11
+- **Dependencias:** No requiere instalaciones adicionales (Python, codecs, etc. vienen integrados).
 
-### 2. Instalar Dependencias
-Crea un entorno virtual (opcional pero recomendado) e instala las librerías necesarias:
 
-```bash
-pip install opencv-python mss pillow sounddevice moviepy numpy
+
+*© 2026 Todos los derechos reservados.*
 ```
-
-### 3. Ejecutar la Aplicación
-Para iniciar el programa en modo desarrollo:
-
-```bash
-python XCapture.py
-```
-
----
-
-## 📦 Compilación a .EXE (Distribución)
-
-Para generar un archivo ejecutable portable (`.exe`) utilizando `pyinstaller`, sigue estos pasos:
-
-1.  **Instala PyInstaller:**
-    ```bash
-    pip install pyinstaller
-    ```
-
-2.  **Prepara los recursos:**
-    Asegúrate de tener tu archivo de imagen del logo (ej. `1f2833.png`) en la misma carpeta que el script `XCapture.py`.
-
-3.  **Ejecuta el comando de compilación:**
-    ```bash
-    pyinstaller --noconsole --onefile --name "XVCapture" --add-data "1f2833.png;." --copy-metadata imageio --copy-metadata moviepy --collect-all imageio-ffmpeg --collect-binaries sounddevice XCapture.py
-    ```
-
-El ejecutable final se encontrará dentro de la carpeta `dist/`.
-
----
-
-## 👤 Autor y Empresa
-
-Desarrollado con fines educativos y de seguridad informática.
-
-*   **Creador:** [Rodolfo Hernandez Baz](https://www.rodolfohbaz.info/)
-*   **Desarrollador Principal:** [Pr0fEs0r-X](https://github.com/Pr0fEs0r-X)
-*   **Compañía:** [Rhino Forensic & Reverse Toolkit v 1.0](https://rhinosecurity.xyz/)
-
----
 
 ## 📜 Licencia
 
