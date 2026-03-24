@@ -1,77 +1,99 @@
-# 🎥 XVScreenCapture v 1.0
-
 <p align="center">
   <img src="1f2833.png" alt="XVCapture Logo" width="200">
 </p>
+
+<h1 align="center">XVCapture v1.0</h1>
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/Platform-Windows-lightgrey" alt="Platform">
-  <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
-</p>
-<p align="center">
-  <strong>Herramienta profesional de captura de pantalla y grabación de video para Windows.</strong>
+  <strong>Herramienta profesional de captura de pantalla y grabación de video para Windows y Linux.</strong>
+  <br>
+  <sub>Desarrollado por <a href="https://rodolfohbaz.info/">Rodolfo Hernández Baz (Pr@fEs0r X)</a></sub>
 </p>
 
 <p align="center">
-  <a href="https://rodolfohbaz.info/" target="_blank">Rodolfo Hernández Baz (Pr@fEs0r X)</a> |
-  <a href="https://rhinosecurity.xyz/" target="_blank">Rhino Forensic & Reverse Toolkit</a>
+  <img src="https://img.shields.io/badge/Version-1.0-blue" alt="Version">
+  <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-lightgrey" alt="Platform">
+  <img src="https://img.shields.io/badge/License-Propietaria-red" alt="License">
 </p>
 
 ---
-<img width="400" height="450" alt="ventana" src="https://github.com/user-attachments/assets/9da5b003-62d2-45e2-9ad2-f5e934e3cf8d" />
 
 ## 📖 Descripción
 
-**XVScreenCapture v 1.0** es una aplicación portátil (portable) y ligera diseñada para la captura de imágenes y grabación de video de alta calidad. Con una interfaz minimalista y moderna, permite grabar tu pantalla con audio, aplicar zoom en tiempo real y resaltar clics visuales, ideal para tutoriales, presentaciones y documentación.
+**XVCapture** es una aplicación de escritorio moderna y de alto rendimiento diseñada para capturar screenshots y grabar la actividad de la pantalla con calidad profesional. Cuenta con una interfaz oscura y elegante, soporte para múltiples monitores y herramientas avanzadas como la superposición de webcam y marcas de agua.
 
 ## ✨ Características Principales
 
-### Grabación de Video
-- **Multi-Monitor:** Soporte para grabar cualquier monitor conectado al sistema.
-- **Sincronización de Audio:** Corrección automática de velocidad para asegurar que el audio y el video estén perfectamente alineados.
-- **Zoom Dinámico:** Acércate y aléjate de la pantalla en tiempo real mientras grabas usando teclas rápidas.
-- **Indicador de Clic:** Muestra un círculo visual (rojo o amarillo) en el lugar exacto donde haces clic, perfecto para resaltar acciones.
-- **Captura de Audio:** Graba tu voz desde el micrófono simultáneamente con la pantalla.
-
 ### Captura de Imagen
-- **Modos Flexibles:** Captura la pantalla completa, selecciona un área manual o elige una ventana específica con un solo clic.
-- **Temporizador:** Configura retardos de 3, 4 o 5 segundos para prepararte antes de la captura.
-- **Calidad Ajustable:** Guarda imágenes en calidad Alta, Media o Baja.
+*   **Modos de captura:** Pantalla completa, Área seleccionable y Ventana específica.
+*   **Temporizador:** Retardo de 3, 4 o 5 segundos antes de capturar.
+*   **Control de Calidad:** Opciones de calidad Alta, Media y Baja.
+
+### Grabación de Video
+*   **Alta Calidad:** Soporte para hasta 30 FPS.
+*   **Audio:** Grabación sincronizada de micrófono con corrección automática de velocidad para evitar desincronización.
+*   **Zoom Dinámico:** Acércate y aléjate durante la grabación usando las teclas `+`, `-` y `0`.
+*   **Indicador de Clic:** Muestra un círculo visual (Rojo o Amarillo) cada vez que haces clic, ideal para tutoriales.
+
+### Funciones Avanzadas
+*   **Webcam Overlay:** Activa tu cámara web y colócala en cualquier esquina mientras grabas la pantalla.
+*   **Marca de Agua:** Añade tu logo o firma a los videos en tiempo real. Soporta imágenes PNG con transparencia y selección de posición.
+*   **Multi-Monitor:** Soporte completo para sistemas con múltiples pantallas.
 
 ### Interfaz de Usuario
-- **Diseño Minimalista:** Interfaz oscura elegante sin barras de título estándar.
-- **Controles Modernos:** Botones de cerrar y minimizar con estilo "semáforo" (macOS/Windows 11 style).
-- **Progreso Visual:** Barra de progreso animada durante el procesamiento del video final.
+*   **Temas de Color:** Personaliza la apariencia con 5 temas incluidos:
+    *   Morado (Default)
+    *   Cian
+    *   Naranja
+    *   Verde Olivo
+    *   Gris
+*   **Diseño Moderno:** Interfaz minimalista con bordes sinuosos y controles fluidos.
 
-## 🚀 Cómo Usar
+## 📥 Instalación
 
-1.  **Descarga:** Obtén el archivo `XVCapture.exe`.
-2.  **Ejecuta:** Haz doble clic en el archivo. No requiere instalación.
-3.  **Permisos:** Si Windows SmartScreen bloquea la aplicación, haz clic en "Más información" y luego en "Ejecutar de todas formas".
+No requiere instalación complicada.
 
-## ⌨️ Controles y Atajos
+1.  Ve a la sección de **Releases** en este repositorio.
+2.  Descarga el archivo ejecutable (`XVCapture_v1.0.exe`).
+3.  Asegúrate de tener el archivo de logo `1f2833.png` en la misma carpeta que el ejecutable para que la pantalla de carga funcione correctamente (opcional pero recomendado).
+4.  ¡Ejecuta el archivo y comienza a grabar!
 
-| Tecla | Acción |
-| :---: | :--- |
-| **`+`** | Acercar Zoom (Zoom In) |
-| **`-`** | Alejar Zoom (Zoom Out) |
-| **`0`** | Resetear Zoom |
+## 🛠️ Uso
 
-*El zoom sigue automáticamente la posición del cursor del mouse.*
+1.  **Selecciona el Monitor:** Si tienes más de una pantalla, elige cuál capturar.
+2.  **Configura los Efectos:**
+    *   Activa la **Webcam** y selecciona su posición.
+    *   Carga una **Marca de Agua** si lo deseas.
+    *   Selecciona el color del **Indicador de Clic**.
+3.  **Inicia la Grabación:** Presiona el botón **INICIAR**, elige dónde guardar el archivo y comienza.
+4.  **Controles en Caliente:**
+    *   Tecla `+`: Acercar (Zoom In).
+    *   Tecla `-`: Alejar (Zoom Out).
+    *   Tecla `0`: Restablecer Zoom.
 
-## 💻 Requisitos del Sistema
+## ⚙️ Tecnologías Utilizadas
 
-- **Sistema Operativo:** Windows 10 / 11
-- **Dependencias:** No requiere instalaciones adicionales (Python, codecs, etc. vienen integrados).
+Este proyecto fue construido utilizando:
+*   **Python 3.12**
+*   **Tkinter** (Interfaz Gráfica)
+*   **OpenCV** (Procesamiento de Video)
+*   **MSS** (Captura de Pantalla)
+*   **MoviePy** (Procesamiento y Merge de Audio/Video)
+*   **Pynput** (Eventos de Teclado/Ratón)
 
+## 👨‍💻 Autor
 
+**Rodolfo Hernández Baz (Pr@fEs0r X)**
 
-*© 2026 Todos los derechos reservados.*
-```
+*   **Sitio Web:** [rodolfohbaz.info](https://rodolfohbaz.info/)
+*   **LinkedIn:** [Perfil](https://www.linkedin.com/in/rodolfo-hernandez-baz-46a86779/)
+*   **Organización:** [Rhino Forensic & Reverse Toolkit](https://rhinosecurity.xyz/)
 
 ## 📜 Licencia
 
-Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+Este software es de uso libre. Para redistribución o uso comercial, por favor contactar al autor.
 
-> **Nota:** Si tienes alguna sugerencia o encuentras un error, no dudes en abrir un Issue en este repositorio.
+---
+<p align="center">
+  Made with ❤️ by Pr@fEs0r X
+</p>
 ```
