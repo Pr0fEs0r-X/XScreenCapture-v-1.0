@@ -18,7 +18,7 @@
 ---
 <img width="400" height="620" alt="ventana_1" src="https://github.com/user-attachments/assets/03eda8d1-d929-457c-9917-c6bdacc5321c" />
 
-## 📖 Descripción
+## 📖 Descripción  --> Contactame
 
 **XVCapture** es una aplicación de escritorio moderna y de alto rendimiento diseñada para capturar screenshots y grabar la actividad de la pantalla con calidad profesional. Cuenta con una interfaz oscura y elegante, soporte para múltiples monitores y herramientas avanzadas como la superposición de webcam y marcas de agua.
 
