@@ -2,7 +2,7 @@
   <img src="1f2833.png" alt="XVCapture Logo" width="200">
 </p>
 
-<h1 align="center">XVCapture v1.0</h1>
+<h1 align="center">XVCapture v1.0 Profesional</h1>
 <p align="center">
   <strong>Herramienta profesional de captura de pantalla y grabación de video para Windows y Linux.</strong>
   <br>
