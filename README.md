@@ -16,6 +16,7 @@
 </p>
 
 ---
+<img width="400" height="620" alt="ventana_1" src="https://github.com/user-attachments/assets/03eda8d1-d929-457c-9917-c6bdacc5321c" />
 
 ## 📖 Descripción
 
